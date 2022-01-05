@@ -75,3 +75,37 @@ section {
     margin-top: 40px;
     font-size: 16px;
 }
+
+
+.mission-section h1{
+    text-align: center;
+    font-weight: bold;
+}
+
+.mission-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mission-container div{
+    width: 30%;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 1%;
+}
+
+.mission-container img{
+    width: 140px;
+    height: 140px;
+}
+.mission{
+    background-color: #edf5f6;
+}
+.vision{
+    background-color: #ffeeee;
+}
+
+.goals{
+    background-color: #fff4d6;
+}
