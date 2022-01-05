@@ -5,3 +5,73 @@ body {
         sans-serif, 'Yeseva One',
         cursive;
 }
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+section {
+    padding: 60px 0;
+}
+
+.container {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.highlight-text {
+    color: salmon;
+}
+
+.top-header-text {
+    border-left: 6px solid chocolate;
+    font-family: Yeseva One;
+}
+
+.top-header-text h1 {
+    margin: 10px;
+}
+
+.top-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.half-width {
+    width: 50%;
+    margin: 2%;
+}
+
+.top-header .half-width img {
+    display: block;
+    width: 400px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.top-header .half-width p {
+    font-size: 18px;
+    color: #3e3e3e;
+    margin-top: 30px 0;
+    
+}
+
+.link-btn {
+    background-color: chocolate;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px 30px;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+.top-header .half-width small{
+    display: block;
+    margin-top: 40px;
+    font-size: 16px;
+}
