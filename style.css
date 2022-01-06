@@ -162,6 +162,11 @@ section {
     height: 400px;
 }
 
+.develop-section ,
+.team-section{
+    padding-left: 35px;
+    padding-right: 35px;
+}
 
 
 .contact-section .contact-content {
