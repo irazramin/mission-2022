@@ -162,8 +162,8 @@ section {
     height: 400px;
 }
 
-.develop-section ,
-.team-section{
+.develop-section,
+.team-section {
     padding-left: 35px;
     padding-right: 35px;
 }
@@ -172,7 +172,7 @@ section {
 .contact-section .contact-content {
     display: flex;
     align-items: center;
-     justify-content: center;
+    justify-content: center;
 
 }
 
@@ -197,8 +197,7 @@ section {
     border: none;
     font-size: 20px;
     border-radius: 10px;
-
-
+    font-weight: 500;
 }
 
 .contact-content form input:focus,
@@ -208,16 +207,16 @@ section {
 
 .contact-content form input {
     padding: 25px;
-    margin-right: 40px;
 }
 
 .contact-content form textarea {
     height: 200px;
-    padding: 10px;
+    padding: 20px;
 }
 
-.contact-content form {
-    width: 100%;
+.contact-content form textarea::placeholder,
+.contact-content form input::placeholder {
+    font-family: 'Poppins';
 }
 
 .contact-content button {
